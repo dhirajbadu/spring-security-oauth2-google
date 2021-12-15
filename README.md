@@ -18,7 +18,7 @@ grails {
     }
 }
 ```
-Add the following in setting.gradle
+Add the following in settings.gradle (if not then create the file )
 ````
 include('spring-security-oauth2-google')
 ````
