@@ -68,6 +68,9 @@ Logged with google?
 <oauth2:ifLoggedInWith provider="google">yes</oauth2:ifLoggedInWith>
 <oauth2:ifNotLoggedInWith provider="google">no</oauth2:ifNotLoggedInWith>
 ````
+### Reference
+https://github.com/dhirajbadu/grails4_oauth2_social_login/
+
 #### How to reach me?
 * Email: dhirajbadu50@gmail.com
 * LinkedIn: https://www.linkedin.com/in/dhiraj-badu-41648b134/
