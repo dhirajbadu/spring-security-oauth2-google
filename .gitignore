@@ -18,6 +18,9 @@
 /test/reports
 /logs
 
+/build
+/gradle
+
 # project release file
 /*.war
 
