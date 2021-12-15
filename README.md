@@ -106,7 +106,8 @@ If the application is unable to build due to of an exception like "No GORM imple
         }
 ````
 ### Reference
-https://github.com/dhirajbadu/grails4_oauth2_social_login/
+* https://github.com/dhirajbadu/grails4_oauth2_social_login/
+* https://github.com/dhirajbadu/grails4_oauth2_social_login/tree/plugin/google
 
 #### How to reach me?
 * Email: dhirajbadu50@gmail.com
