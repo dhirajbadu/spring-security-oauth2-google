@@ -32,7 +32,8 @@ include('spring-security-oauth2-google')
 * Reference: https://docs.grails.org/4.0.12/guide/plugins.html    
 ### Configs
 Add the following configs in you application.yml
-grails:````
+````
+grails:
      plugin:
         springsecurity:
             oauth2:
