@@ -1,4 +1,5 @@
 # Spring Security OAuth2 Google Plugin
+This plugin is for grails 4
 ### Clone
 ```
 git clone https://github.com/dhirajbadu/spring-security-oauth2-google.git
