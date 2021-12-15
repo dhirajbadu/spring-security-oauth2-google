@@ -23,7 +23,7 @@ Add the following in setting.gradle
 include('spring-security-oauth2-google')
 ````
 * Note: This plugin should be inside you main module repo
-  PROJECT_DIR
+   #### PROJECT_DIR
     - settings.gradle
     - yourapp
         - build.gradle
