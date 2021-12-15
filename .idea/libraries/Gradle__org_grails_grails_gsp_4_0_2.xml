@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails:grails-gsp:4.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-gsp/4.0.2/e86dc8b9b071bce922fe2228de0facce91d67431/grails-gsp-4.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-gsp/4.0.2/10fb6b736b340cbbb5da6e9689bfb8b60895b782/grails-gsp-4.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

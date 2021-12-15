@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.ant:ant-junit:1.9.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit/1.9.7/12629dc0fe3bc89199f83c1cbf7f844f2d0801de/ant-junit-1.9.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit/1.9.7/817c61f0aa94273bce839caf963ca6722558393/ant-junit-1.9.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

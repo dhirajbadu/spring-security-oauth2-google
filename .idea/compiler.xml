@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="spring-security-oauth2-google" target="1.8" />
+      <module name="spring-security-oauth2-google.ast" target="1.8" />
+      <module name="spring-security-oauth2-google.integrationTest" target="1.8" />
+      <module name="spring-security-oauth2-google.main" target="1.8" />
+      <module name="spring-security-oauth2-google.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
