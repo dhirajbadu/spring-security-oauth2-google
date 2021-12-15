@@ -10,7 +10,7 @@ git clone https://github.com/dhirajbadu/spring-security-oauth2-google.git
  compile 'org.grails.plugins:spring-security-oauth2:1.3.0.BUILD-SNAPSHOT'
 ````
 ### Installation
-Add the following in build.gralde of you mail app
+Add the following in build.gradle of you mail app
 ```
 grails {
     plugins {
