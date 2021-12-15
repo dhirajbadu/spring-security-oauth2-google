@@ -76,6 +76,23 @@ Logged with google?
 <oauth2:ifLoggedInWith provider="google">yes</oauth2:ifLoggedInWith>
 <oauth2:ifNotLoggedInWith provider="google">no</oauth2:ifNotLoggedInWith>
 ````
+### Controller
+````
+    @Secured("permitAll")
+    def index() {
+        if(springSecurityService?.isLoggedIn()){
+            redirect(action:'googleUser')
+        }else{
+            render(view: '/index')
+        }
+    }
+
+    @Secured("ROLE_USER")
+    def googleUser() {
+        def principle = springSecurityService.principal
+        render "hello ${principle.username} : you are google user"
+    }
+````
 ### Reference
 https://github.com/dhirajbadu/grails4_oauth2_social_login/
 
