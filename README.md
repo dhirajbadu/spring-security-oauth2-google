@@ -60,3 +60,7 @@ else if you just want to populated the principal in srpingSecurityContext then p
 Where the authorities are taken from roleNames(must be in list).
 
 If you dont want to populate the principal then remove the supplyUserDetails from config.
+
+#### How to reach me?
+* Email: dhirajbadu50@gmail.com
+* LinkedIn: https://www.linkedin.com/in/dhiraj-badu-41648b134/
