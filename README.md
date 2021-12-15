@@ -94,7 +94,7 @@ Logged with google?
     }
 ````
 ### Note
-If you app throw an exception like "No GORM implementations configured. Ensure GORM has been initialized correctly" then remove the code below from  method doWithApplicationContext() of class spring-security-oauth2-google/src/main/groovy/spring/security/oauth2/google/SpringSecurityOauth2GoogleGrailsPlugin.groovy(inside plugin) and put that code to your applications Bootstrap.groovy
+If the application is unable to build due to of an exception like "No GORM implementations configured. Ensure GORM has been initialized correctly" then remove the code below from  method doWithApplicationContext() of class spring-security-oauth2-google/src/main/groovy/spring/security/oauth2/google/SpringSecurityOauth2GoogleGrailsPlugin.groovy(inside plugin) and put that code to your applications Bootstrap.groovy
 ````
  def SpringSecurityOauth2BaseService oAuth2BaseService = grails.util.Holders.grailsApplication.mainContext.getBean('springSecurityOauth2BaseService') as grails.plugin.springsecurity.oauth2.SpringSecurityOauth2BaseService
         def GoogleOAuth2Service googleOAuth2Service = grails.util.Holders.grailsApplication.mainContext.getBean('googleOAuth2Service') as GoogleOAuth2Service
