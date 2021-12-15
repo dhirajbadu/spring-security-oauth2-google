@@ -45,3 +45,18 @@ plugin:
                         callback: '/oauth2/google/callback'
                         scopes: 'https://www.googleapis.com/auth/userinfo.email'
 ````
+In this config if you want to authenticate the user from the user table then you need to put
+````
+ supplyUserDetails:
+                 userDetailFrom: 'userDetailsService'
+
+````
+else if you just want to populated the principal in srpingSecurityContext then put
+````
+ supplyUserDetails:
+                 userDetailFrom: 'GrailsUser'
+
+````
+Where the authorities are taken from roleNames.
+
+If you dont want to populate the principal then remove the supplyUserDetails from config.
