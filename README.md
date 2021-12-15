@@ -38,8 +38,8 @@ plugin:
 
                 providers:
                     google:
-                        api_key: '118536954776-n0so5sprdpha30dcejcohdhipgtfb83m.apps.googleusercontent.com'
-                        api_secret: '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'
+                        api_key: 'your api key'
+                        api_secret: 'your api secret'
                         successUri: '/oauth2/google/success'
                         failureUri: '/oauth2/google/failure'
                         callback: '/oauth2/google/callback'
