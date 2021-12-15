@@ -57,6 +57,6 @@ else if you just want to populated the principal in srpingSecurityContext then p
                  userDetailFrom: 'GrailsUser'
 
 ````
-Where the authorities are taken from roleNames.
+Where the authorities are taken from roleNames(must be in list).
 
 If you dont want to populate the principal then remove the supplyUserDetails from config.
