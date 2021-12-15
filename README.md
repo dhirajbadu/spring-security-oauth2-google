@@ -93,6 +93,18 @@ Logged with google?
         render "hello ${principle.username} : you are google user"
     }
 ````
+### Note
+If you app throw an exception like "No GORM implementations configured. Ensure GORM has been initialized correctly" then remove the code below from  method doWithApplicationContext() of class spring-security-oauth2-google/src/main/groovy/spring/security/oauth2/google/SpringSecurityOauth2GoogleGrailsPlugin.groovy(inside plugin) and put that code to your applications Bootstrap.groovy
+````
+ def SpringSecurityOauth2BaseService oAuth2BaseService = grails.util.Holders.grailsApplication.mainContext.getBean('springSecurityOauth2BaseService') as grails.plugin.springsecurity.oauth2.SpringSecurityOauth2BaseService
+        def GoogleOAuth2Service googleOAuth2Service = grails.util.Holders.grailsApplication.mainContext.getBean('googleOAuth2Service') as GoogleOAuth2Service
+        try {
+            oAuth2BaseService.registerProvider(googleOAuth2Service)
+        } catch (OAuth2Exception exception) {
+            log.error("There was an oAuth2Exception", exception)
+            log.error("OAuth2 Google not loaded")
+        }
+````
 ### Reference
 https://github.com/dhirajbadu/grails4_oauth2_social_login/
 
