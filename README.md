@@ -105,9 +105,10 @@ If the application is unable to build due to of an exception like "No GORM imple
             log.error("OAuth2 Google not loaded")
         }
 ````
-### Reference
-* https://github.com/dhirajbadu/grails4_oauth2_social_login/
+### Implementation
 * https://github.com/dhirajbadu/grails4_oauth2_social_login/tree/plugin/google
+* https://github.com/dhirajbadu/grails4_oauth2_social_login/
+
 
 #### How to reach me?
 * Email: dhirajbadu50@gmail.com
